@@ -97,6 +97,10 @@ body {
   color: transparent;
   animation: rainbow 2s linear infinite;
 }
+.rainbow-text.extrude {
+  text-shadow: none;
+  filter: drop-shadow(6px 6px 0 var(--ink));
+}
 
 .sunburst {
   background: repeating-conic-gradient(from 0deg, var(--yellow) 0deg 10deg, #ffc93c 10deg 20deg);
